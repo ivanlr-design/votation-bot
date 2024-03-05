@@ -8,7 +8,7 @@ from dotenv import load_dotenv, dotenv_values
 import discord
 import os
 import time
-
+# test
 load_dotenv(".env")
 
 TOKEN = os.getenv("TOKEN")
