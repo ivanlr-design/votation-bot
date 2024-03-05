@@ -3,7 +3,6 @@ from utils.GetUsersInChannel import members
 from discord.ext import commands
 from utils import Checking
 from utils.Disconnect import Disconnect
-from utils.ClearChannel import clear
 from dotenv import load_dotenv, dotenv_values
 import discord
 import os
@@ -18,14 +17,6 @@ bot = commands.Bot(command_prefix="!",intents=discord.Intents.all())
 @bot.event
 async def on_ready():
     await bot.tree.sync()
-
-@bot.tree.command(name="clearchannel",description="vote to KICK a user")
-async def clearchannel(interaction: discord.Interaction, iddelcanal: str):
-    try:
-        clear(bot, int(iddelcanal))
-        await interaction.response.send_message("cleared")
-    except:
-        pass
 
 @bot.tree.command(name="vote",description="vote to KICK a user")
 async def vote(interaction: discord.Interaction, iddelcanal: str, user: str):
@@ -55,6 +46,7 @@ async def vote(interaction: discord.Interaction, iddelcanal: str, user: str):
                     msj = await channel.send(embed=embed)
                     await msj.add_reaction("👍")
                     await msj.add_reaction("👎")
+                
                     time.sleep(5)
                     msg = await msj.channel.fetch_message(msj.id)
 
