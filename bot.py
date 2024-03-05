@@ -46,14 +46,14 @@ async def dumplogs(interaction: discord.Interaction):
         return
     
     # Cargar el archivo
-    with open("Logs.txt","r") as file:
+    with open("Logs.txt","rb") as file:
         archivo = discord.File(file)
     
     user = discord.utils.get(interaction.guild.members, name=str(interaction.user.name))
     if user:
         await user.send("LOG DUMP",file=archivo)
         Handler.Success(f"Succesfully sent logs to: {str(interaction.user.name)}")
-        msj = await interaction.response.send_message("sent")
+        await interaction.response.send_message("sent")
     
 
 @bot.tree.command(name="vote",description="vote to KICK a user")

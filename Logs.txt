@@ -1,0 +1,11 @@
+[ERROR] (05/03/2024 20:45): ERROR MAKING DB CONEXION : (2003, "Can't connect to MySQL server on '161.97.78.70:3306' ([Errno 11001] getaddrinfo failed)")
+[ERROR] (05/03/2024 20:46): ERROR MAKING DB CONEXION : (2003, "Can't connect to MySQL server on '161.97.78.70:3306' ([Errno 11001] getaddrinfo failed)")
+[ERROR] (05/03/2024 20:47): ERROR MAKING DB CONEXION : (2003, "Can't connect to MySQL server on '161.97.78.70:3306' ([Errno 11001] getaddrinfo failed)")
+[SUCCESS] (05/03/2024 20:47): Succesfully sent logs to: ivanlr._1_45557
+[ERROR] (05/03/2024 20:48): ERROR MAKING DB CONEXION : (2003, "Can't connect to MySQL server on '161.97.78.70:3306' ([Errno 11001] getaddrinfo failed)")
+[ERROR] (05/03/2024 20:50): ERROR MAKING DB CONEXION : (2003, "Can't connect to MySQL server on '161.97.78.70:3306' ([Errno 11001] getaddrinfo failed)")
+[ERROR] (05/03/2024 20:51): ERROR MAKING DB CONEXION : (2003, "Can't connect to MySQL server on '161.97.78.70:3306' ([Errno 11001] getaddrinfo failed)")
+[SUCCESS] (05/03/2024 20:51): Succesfully sent logs to: ivanlr._1_45557
+[ERROR] (05/03/2024 20:52): ERROR MAKING DB CONEXION : (2003, "Can't connect to MySQL server on '161.97.78.70:3306' ([Errno 11001] getaddrinfo failed)")
+[SUCCESS] (05/03/2024 20:53): Succesfully sent logs to: ivanlr._1_45557
+[SUCCESS] (05/03/2024 20:53): Succesfully created connexion
