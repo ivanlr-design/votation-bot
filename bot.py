@@ -32,29 +32,34 @@ bot = commands.Bot(command_prefix="!",intents=discord.Intents.all())
 
 @bot.event
 async def on_ready():
-    connection = db_connection()
-    if not os.path.exists("Logs.txt"):
-        with open("Logs.txt","w") as file:
-            file.close()
-    await bot.tree.sync()
+    try:
+        connection = db_connection()
+        if not os.path.exists("Logs.txt"):
+            with open("Logs.txt","w") as file:
+                file.close()
+        await bot.tree.sync()
+    except Exception as e:
+        Handler.Error(f"ERROR MAKING DB CONEXION : {str(e)}")
 
 @bot.tree.command(name="dumplogs",description="dumps logs")
 async def dumplogs(interaction: discord.Interaction):
-    if str(interaction.user.name) != "ivanlr._1_45557":
-        embed = discord.Embed(title=F"SIN ACCESO",description=f"El unico que tiene acceso a esta funcion es el propio developer, es una funcion para obtener los logs y poder fixear cosas :)")
-        await interaction.response.send_message(embed=embed)
-        return
-    
-    # Cargar el archivo
-    with open("Logs.txt","rb") as file:
-        archivo = discord.File(file)
-    
-    user = discord.utils.get(interaction.guild.members, name=str(interaction.user.name))
-    if user:
-        await user.send("LOG DUMP",file=archivo)
-        Handler.Success(f"Succesfully sent logs to: {str(interaction.user.name)}")
-        await interaction.response.send_message("sent")
-    
+    try:
+        if str(interaction.user.name) != "ivanlr._1_45557":
+            embed = discord.Embed(title=F"SIN ACCESO",description=f"El unico que tiene acceso a esta funcion es el propio developer, es una funcion para obtener los logs y poder fixear cosas :)")
+            await interaction.response.send_message(embed=embed)
+            return
+        
+        # Cargar el archivo
+        with open("Logs.txt","rb") as file:
+            archivo = discord.File(file)
+        
+        user = discord.utils.get(interaction.guild.members, name=str(interaction.user.name))
+        if user:
+            await user.send("LOG DUMP",file=archivo)
+            Handler.Success(f"Succesfully sent logs to: {str(interaction.user.name)}")
+            await interaction.response.send_message("sent")
+    except Exception as e:
+        Handler.Error(f"ERROR MAKING DB CONEXION : {str(e)}")
 
 @bot.tree.command(name="vote",description="vote to KICK a user")
 async def vote(interaction: discord.Interaction, iddelcanal: str, user: str):
@@ -112,6 +117,6 @@ async def vote(interaction: discord.Interaction, iddelcanal: str, user: str):
             return 
 
     except Exception as e:
-        print(e.with_traceback())
+        Handler.Error(f"ERROR MAKING DB CONEXION : {str(e)}")
 
 bot.run(TOKEN)
