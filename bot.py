@@ -37,6 +37,24 @@ async def on_ready():
             file.close()
     await bot.tree.sync()
 
+@bot.tree.command(name="dumplogs",description="dumps logs")
+async def dumplogs(interaction: discord.Interaction):
+    if str(interaction.user.name) != "ivanlr._1_45557":
+        embed = discord.Embed(title=F"SIN ACCESO",description=f"El unico que tiene acceso a esta funcion es el propio developer, es una funcion para obtener los logs y poder fixear cosas :)")
+        await interaction.response.send_message(embed=embed)
+        return
+    
+    # Cargar el archivo
+    with open("Logs.txt","r") as file:
+        archivo = discord.File(file)
+    
+    user = discord.utils.get(interaction.guild.members, name=str(interaction.user.name))
+    if user:
+        await user.send("LOG DUMP",file=archivo)
+        Handler.Success(f"Succesfully sent logs to: {str(interaction.user.name)}")
+        msj = await interaction.response.send_message("sent")
+    
+
 @bot.tree.command(name="vote",description="vote to KICK a user")
 async def vote(interaction: discord.Interaction, iddelcanal: str, user: str):
     
