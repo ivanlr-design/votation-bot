@@ -32,6 +32,7 @@ bot = commands.Bot(command_prefix="!",intents=discord.Intents.all())
 
 @bot.event
 async def on_ready():
+    connection = db_connection()
     if not os.path.exists("Logs.txt"):
         with open("Logs.txt","w") as file:
             file.close()
