@@ -9,3 +9,103 @@
 [ERROR] (05/03/2024 20:52): ERROR MAKING DB CONEXION : (2003, "Can't connect to MySQL server on '161.97.78.70:3306' ([Errno 11001] getaddrinfo failed)")
 [SUCCESS] (05/03/2024 20:53): Succesfully sent logs to: ivanlr._1_45557
 [SUCCESS] (05/03/2024 20:53): Succesfully created connexion
+[SUCCESS] (05/03/2024 21:35): Succesfully created connexion
+[SUCCESS] (05/03/2024 21:43): Succesfully created connexion
+[ERROR] (05/03/2024 21:43): ERROR MAKING DB CONEXION : Setup() missing 1 required positional argument: 'connector'
+[SUCCESS] (05/03/2024 21:44): Succesfully created connexion
+[SUCCESS] (05/03/2024 21:44): Succesfully executed SETUP
+[SUCCESS] (05/03/2024 21:49): Succesfully created connexion
+[SUCCESS] (05/03/2024 21:49): Succesfully executed SETUP
+[ERROR] (05/03/2024 22:41): ERROR MAKING DB CONEXION : 404 Not Found (error code: 10062): Unknown interaction
+[ERROR] (05/03/2024 22:42): ERROR MAKING DB CONEXION : 'charmap' codec can't encode character '\u2757' in position 61: character maps to <undefined>
+[ERROR] (05/03/2024 22:42): ERROR MAKING DB CONEXION : 404 Not Found (error code: 10062): Unknown interaction
+[SUCCESS] (06/03/2024 16:09): Succesfully created connexion
+[SUCCESS] (06/03/2024 16:09): Succesfully executed SETUP
+[ERROR] (06/03/2024 16:09): ERROR MAKING DB CONEXION : 404 Not Found (error code: 10062): Unknown interaction
+[SUCCESS] (06/03/2024 16:11): Succesfully created connexion
+[SUCCESS] (06/03/2024 16:11): Succesfully executed SETUP
+[SUCCESS] (06/03/2024 16:11): Succesfully created connexion
+[SUCCESS] (06/03/2024 16:11): USER : ivanlr._1_45557 was kicked from: General
+[SUCCESS] (06/03/2024 16:21): Succesfully created connexion
+[SUCCESS] (06/03/2024 16:21): Succesfully executed SETUP
+[ERROR] (06/03/2024 16:21): ERROR MAKING DB CONEXION : invalid literal for int() with base 10: 'General'
+[SUCCESS] (06/03/2024 16:22): Succesfully created connexion
+[SUCCESS] (06/03/2024 16:22): Succesfully executed SETUP
+[ERROR] (06/03/2024 16:22): ERROR MAKING DB CONEXION : invalid literal for int() with base 10: 'General'
+[ERROR] (06/03/2024 16:22): ERROR MAKING DB CONEXION : 404 Not Found (error code: 10062): Unknown interaction
+[SUCCESS] (06/03/2024 16:30): Succesfully created connexion
+[SUCCESS] (06/03/2024 16:30): Succesfully executed SETUP
+[SUCCESS] (06/03/2024 16:31): Succesfully created connexion
+[SUCCESS] (06/03/2024 16:31): Succesfully executed SETUP
+[SUCCESS] (06/03/2024 18:42): Succesfully created connexion
+[SUCCESS] (06/03/2024 18:42): Succesfully executed SETUP
+[SUCCESS] (06/03/2024 18:42): Succesfully created connexion
+[SUCCESS] (06/03/2024 18:42): USER : ivanlr._1_45557 was kicked from: General
+[SUCCESS] (06/03/2024 18:49): Succesfully created connexion
+[SUCCESS] (06/03/2024 18:49): Succesfully executed SETUP
+[SUCCESS] (06/03/2024 18:50): Succesfully created connexion
+[SUCCESS] (06/03/2024 18:50): USER : ivanlr._1_45557 was kicked from: General
+[SUCCESS] (08/03/2024 19:18): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:18): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:18): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:18): USER : ivanlr._1_45557 was kicked from: General
+[SUCCESS] (08/03/2024 19:20): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:20): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:21): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:21): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:21): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:21): USER : ivanlr._1_45557 was kicked from: General
+[SUCCESS] (08/03/2024 19:23): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:23): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:23): Succesfully created connexion
+[ERROR] (08/03/2024 19:23): DATABASE ERROR, failed to INSERT into kicked table!, error : not all arguments converted during string formatting
+[SUCCESS] (08/03/2024 19:23): USER : ivanlr._1_45557 was kicked from: General
+[SUCCESS] (08/03/2024 19:25): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:25): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:25): Succesfully created connexion
+[ERROR] (08/03/2024 19:25): DATABASE ERROR, failed to INSERT into kicked table!, error : not all arguments converted during string formatting
+[SUCCESS] (08/03/2024 19:25): USER : ivanlr._1_45557 was kicked from: General
+[SUCCESS] (08/03/2024 19:27): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:27): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:27): Succesfully created connexion
+[ERROR] (08/03/2024 19:27): DATABASE ERROR, failed to INSERT into kicked table!, error : not all arguments converted during string formatting
+[SUCCESS] (08/03/2024 19:27): USER : ivanlr._1_45557 was kicked from: General
+[SUCCESS] (08/03/2024 19:29): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:29): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:32): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:32): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:33): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:33): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:34): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:34): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:39): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:39): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:39): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:39): USER : ivanlr._1_45557 was kicked from: General
+[SUCCESS] (08/03/2024 19:40): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:40): USER : ivanlr._1_45557 was kicked from: General
+[SUCCESS] (08/03/2024 19:57): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:57): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:58): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:58): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:58): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:58): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:59): Succesfully created connexion
+[SUCCESS] (08/03/2024 19:59): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 19:59): Succesfully created connexion
+[SUCCESS] (08/03/2024 20:04): Succesfully created connexion
+[SUCCESS] (08/03/2024 20:04): Succesfully executed SETUP
+[SUCCESS] (08/03/2024 20:06): Succesfully created connexion
+[SUCCESS] (08/03/2024 20:06): Succesfully executed SETUP
+[ERROR] (08/03/2024 20:07): ERROR MAKING DB CONEXION : cannot access local variable 'time' where it is not associated with a value
+[SUCCESS] (08/03/2024 20:08): Succesfully created connexion
+[SUCCESS] (08/03/2024 20:08): Succesfully executed SETUP
+[ERROR] (08/03/2024 20:08): ERROR MAKING DB CONEXION : cannot access local variable 'time' where it is not associated with a value
+[SUCCESS] (08/03/2024 20:09): Succesfully created connexion
+[SUCCESS] (08/03/2024 20:09): Succesfully executed SETUP
+[ERROR] (08/03/2024 20:09): ERROR MAKING DB CONEXION : cannot access local variable 'time' where it is not associated with a value
+[SUCCESS] (08/03/2024 20:10): Succesfully created connexion
+[SUCCESS] (08/03/2024 20:10): Succesfully executed SETUP
+[ERROR] (08/03/2024 20:11): ERROR MAKING DB CONEXION : cannot access local variable 'time' where it is not associated with a value
+[SUCCESS] (08/03/2024 20:12): Succesfully created connexion
+[SUCCESS] (08/03/2024 20:12): Succesfully executed SETUP
